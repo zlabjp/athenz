@@ -23,6 +23,7 @@ RUN GO111MODULE=on \
   -pl core/zts \
   -pl libs/java/auth_core \
   -pl libs/java/client_common \
+  -pl libs/java/cert_refresher \
   -pl clients/java/zts/core \
   -pl clients/java/zts/shade \
   # go projects
